@@ -1,5 +1,5 @@
 var ColorSchemes = {
-  'banana': color_gradient([[1,1,0],[1,1,0.8]]),
+  'banana': color_gradient(["#A49097","#FFFF00","#FFFFBB"].map(color_format)),
   'lemonade': color_gradient([[1,0,0.8],[1,0.8,0]]),
   'dotme': color_gradient(["#33AAEE","#FFFFFF"].map(color_format)),
   'honey': color_gradient([[1,0.7,0.15], [0.75,0.35,0.35]]),
