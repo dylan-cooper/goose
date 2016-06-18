@@ -61,7 +61,7 @@ var Goose = function(canvasID) {
     then = now;
 
     //run each registered initialization callback
-    me.init_callbacks.forEach(function(cb) { cb(me); });
+    me.init_callbacks.forEach(function(cb) { cb(me, deltaTime); });
 
     gl.clear(gl.COLOR_BUFFER_BIT);
 
